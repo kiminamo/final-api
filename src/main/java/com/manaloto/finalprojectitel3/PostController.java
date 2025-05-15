@@ -7,7 +7,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/manaloto/posts")
-@CrossOrigin(origins = {"http://localhost:5173"}) // Allow requests from the frontend
+@CrossOrigin(origins = {"http://localhost:5173", "https://final-ui-wxzk.onrender.com"}) // Allow requests from the frontend
 public class PostController {
 
     @Autowired
